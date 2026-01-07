@@ -6,9 +6,14 @@
 }
 
 :root {
-    /* Color palette */
-    --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --success-gradient: linear-gradient(135deg, #2ea44f 0%, #1a7f37 100%);
+    /* Diakonie Düsseldorf color palette */
+    --diakonie-purple: #5B2D91;
+    --diakonie-purple-dark: #3E1E61;
+    --diakonie-purple-light: #7B4BB5;
+    --diakonie-violet: #8B5FA8;
+    --diakonie-accent: #E91E63;
+    --primary-gradient: linear-gradient(135deg, #5B2D91 0%, #8B5FA8 100%);
+    --success-gradient: linear-gradient(135deg, #7B4BB5 0%, #5B2D91 100%);
     --light-gradient: linear-gradient(135deg, #f6f8fa 0%, #ffffff 100%);
     --dark-bg: #24292f;
     --text-primary: #24292f;
@@ -16,8 +21,8 @@
     --bg-light: #f6f8fa;
     --border-color: #d0d7de;
     --white: #ffffff;
-    --green-primary: #2ea44f;
-    --blue-primary: #0969da;
+    --green-primary: #7B4BB5;
+    --blue-primary: #5B2D91;
 }
 
 body {
