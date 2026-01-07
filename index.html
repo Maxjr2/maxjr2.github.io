@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An introduction to GitHub for non-developers and IT professionals">
+    <title>Introduction to GitHub - For Non-Developers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar" aria-label="Main navigation">
+            <div class="container">
+                <h1 class="logo">GitHub Intro</h1>
+                <div class="language-switcher" role="group" aria-label="Language selection">
+                    <button class="lang-btn active" data-lang="en" aria-label="Switch to English">English</button>
+                    <button class="lang-btn" data-lang="de" aria-label="Switch to German">Deutsch</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1 data-i18n="hero.title">Welcome to GitHub</h1>
+            <p class="subtitle" data-i18n="hero.subtitle">A friendly introduction for non-developers and IT professionals</p>
+        </section>
+
+        <section class="content-section">
+            <h2 data-i18n="what.title">What is GitHub?</h2>
+            <p data-i18n="what.description">GitHub is a web-based platform that helps teams collaborate on projects, track changes, and manage versions of files. Think of it as a sophisticated "track changes" feature combined with a collaboration hub.</p>
+            
+            <div class="benefits">
+                <div class="benefit-card">
+                    <div class="icon">📁</div>
+                    <h3 data-i18n="what.benefit1.title">Version Control</h3>
+                    <p data-i18n="what.benefit1.description">Keep track of every change made to your files with a complete history.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="icon">👥</div>
+                    <h3 data-i18n="what.benefit2.title">Team Collaboration</h3>
+                    <p data-i18n="what.benefit2.description">Work together with your team without overwriting each other's work.</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="icon">🔄</div>
+                    <h3 data-i18n="what.benefit3.title">Backup & Recovery</h3>
+                    <p data-i18n="what.benefit3.description">Never lose work again - easily restore previous versions anytime.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2 data-i18n="concepts.title">Key Concepts</h2>
+            
+            <div class="concept">
+                <h3 data-i18n="concepts.repository.title">📚 Repository (Repo)</h3>
+                <p data-i18n="concepts.repository.description">A repository is like a project folder that contains all your files and the complete history of changes. Think of it as your project's home.</p>
+            </div>
+
+            <div class="concept">
+                <h3 data-i18n="concepts.commit.title">💾 Commit</h3>
+                <p data-i18n="concepts.commit.description">A commit is a saved snapshot of your changes. It's like clicking "Save" with a description of what you changed. Each commit creates a checkpoint you can return to.</p>
+            </div>
+
+            <div class="concept">
+                <h3 data-i18n="concepts.branch.title">🌳 Branch</h3>
+                <p data-i18n="concepts.branch.description">Branches let you work on different versions of your project simultaneously. The main branch is your primary version, while other branches are for testing new ideas safely.</p>
+            </div>
+
+            <div class="concept">
+                <h3 data-i18n="concepts.pull.title">⬇️ Pull Request (PR)</h3>
+                <p data-i18n="concepts.pull.description">A pull request is a proposal to merge your changes into the main project. It allows team members to review and discuss changes before they're finalized.</p>
+            </div>
+
+            <div class="concept">
+                <h3 data-i18n="concepts.issue.title">🎯 Issue</h3>
+                <p data-i18n="concepts.issue.description">Issues are used to track tasks, bugs, or feature requests. They help organize work and facilitate discussion about improvements.</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2 data-i18n="getting-started.title">Getting Started</h2>
+            
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3 data-i18n="getting-started.step1.title">Create an Account</h3>
+                    <p data-i18n="getting-started.step1.description">Sign up for a free GitHub account at github.com. You'll need an email address and username.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3 data-i18n="getting-started.step2.title">Explore a Repository</h3>
+                    <p data-i18n="getting-started.step2.description">Browse public repositories to see how projects are organized. Click on files to view their contents and history.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3 data-i18n="getting-started.step3.title">Create Your First Repository</h3>
+                    <p data-i18n="getting-started.step3.description">Click the "+" icon and select "New repository". Give it a name and description, then initialize it with a README file.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3 data-i18n="getting-started.step4.title">Make Your First Commit</h3>
+                    <p data-i18n="getting-started.step4.description">Edit the README file directly on GitHub, write a commit message describing your change, and save it.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2 data-i18n="use-cases.title">Use Cases for Non-Developers</h2>
+            
+            <div class="use-case">
+                <h3 data-i18n="use-cases.documentation.title">📄 Documentation Management</h3>
+                <p data-i18n="use-cases.documentation.description">Store and track changes to technical documentation, user guides, and team wikis. Everyone can contribute and improvements are tracked.</p>
+            </div>
+
+            <div class="use-case">
+                <h3 data-i18n="use-cases.project.title">📊 Project Management</h3>
+                <p data-i18n="use-cases.project.description">Use Issues and Projects to organize tasks, track progress, and manage workflows without needing specialized project management software.</p>
+            </div>
+
+            <div class="use-case">
+                <h3 data-i18n="use-cases.policies.title">📋 Policy & Procedure Tracking</h3>
+                <p data-i18n="use-cases.policies.description">Maintain company policies, SOPs, and procedures with full version history. See who changed what and when, ensuring accountability.</p>
+            </div>
+
+            <div class="use-case">
+                <h3 data-i18n="use-cases.collaboration.title">🤝 Cross-Team Collaboration</h3>
+                <p data-i18n="use-cases.collaboration.description">Collaborate with developers on requirements, testing scenarios, or configuration files. No development experience required.</p>
+            </div>
+        </section>
+
+        <section class="content-section cta">
+            <h2 data-i18n="next.title">Ready to Get Started?</h2>
+            <p data-i18n="next.description">GitHub is more accessible than you think! Start exploring and don't be afraid to experiment - you can always undo changes.</p>
+            <a href="https://github.com" class="btn" data-i18n="next.button">Visit GitHub</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p data-i18n="footer.text">An introductory guide to GitHub for non-technical professionals</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
