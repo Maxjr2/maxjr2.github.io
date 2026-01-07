@@ -9,6 +9,7 @@
     /* Color palette */
     --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     --success-gradient: linear-gradient(135deg, #2ea44f 0%, #1a7f37 100%);
+    --light-gradient: linear-gradient(135deg, #f6f8fa 0%, #ffffff 100%);
     --dark-bg: #24292f;
     --text-primary: #24292f;
     --text-secondary: #57606a;
@@ -229,7 +230,7 @@ header {
 
 /* Use Cases */
 .use-case {
-    background: linear-gradient(135deg, var(--bg-light) 0%, var(--white) 100%);
+    background: var(--light-gradient);
     padding: 1.5rem;
     margin-bottom: 1.5rem;
     border-radius: 8px;
